@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,7 +18,7 @@ namespace WendysTest
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Wendy's Dublin 2017", Description="Wendy's Dublin Reservation Count 232"},
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Search", Description="Search by First Name, Last Name or Company"},
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Reports", Description="Export Registrations to Excel"},
-                //new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is a nice description"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Reserved", Description="Reserved for future use"},
                 //new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is a nice description"},
                 //new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is a nice description"},
             };
