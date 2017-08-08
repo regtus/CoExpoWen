@@ -481,11 +481,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tab_feed.png" width="32" height="30"/>
-        <image name="my_item_image.png" width="40" height="40"/>
         <image name="First" width="32" height="30"/>
         <image name="Second" width="32" height="30"/>
-        <image name="Profile" width="24" height="24"/>
         <image name="ProfileImage" width="95" height="95"/>
         <image name="XamarinLogo" width="220" height="51"/>
     </resources>
