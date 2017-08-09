@@ -139,9 +139,6 @@
     <ImageAsset Include="Assets.xcassets\First.imageset\tab_feed%402x.png" />
     <ImageAsset Include="Assets.xcassets\First.imageset\tab_feed%403x.png" />
     <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\profile_generic.png" />
-    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\profile_generic%402x.png" />
-    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\profile_generic%403x.png" />
     <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Second.imageset\tab_about.png" />
     <ImageAsset Include="Assets.xcassets\Second.imageset\tab_about%402x.png" />
@@ -152,6 +149,17 @@
     <ImageAsset Include="Assets.xcassets\XamarinLogo.imageset\xamarin_logo%403x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\wendyProfile1_95.png" />
+    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\wendyProfile2_190.png" />
+    <ImageAsset Include="Assets.xcassets\ProfileImage.imageset\wendyProfile3_285.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\wendylaunch_2208_1242.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\wendylaunch_750_1334.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\wendys_1242_2208_.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_29.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\MessageDialog.cs" />
@@ -183,6 +191,14 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="ViewControllers\AttendeeViewController.cs" />
+    <Compile Include="ViewControllers\AttendeeViewController.designer.cs">
+      <DependentUpon>AttendeeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendeeNavigationController.cs" />
+    <Compile Include="AttendeeNavigationController.designer.cs">
+      <DependentUpon>AttendeeNavigationController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />

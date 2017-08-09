@@ -29,6 +29,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ItemsViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\LoginViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AttendeeList.xaml.cs">
+      <DependentUpon>AttendeeList.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)References\" />
@@ -37,5 +40,10 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)References\DevExpress.Mobile.Grid.v17.1.dll" />
     <None Include="$(MSBuildThisFileDirectory)References\DevExpress.Mobile.Core.v17.1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AttendeeList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
