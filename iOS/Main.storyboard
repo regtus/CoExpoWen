@@ -216,7 +216,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="81" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1480" y="-776"/>
+            <point key="canvasLocation" x="1478" y="-795"/>
         </scene>
         <!--Title-->
         <scene sceneID="117">
@@ -489,7 +489,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
                     </navigationBar>
-                    <connections/>
+                    <connections>
+                        <segue id="2635" destination="2609" kind="relationship" relationship="rootViewController"/>
+                    </connections>
                     <tabBarItem key="tabBarItem" id="2595" image="First" title="List"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </navigationController>
@@ -501,7 +503,25 @@
                     </items>
                 </navigationBar>
             </objects>
-            <point key="canvasLocation" x="958" y="-38"/>
+            <point key="canvasLocation" x="961" y="-6"/>
+        </scene>
+        <scene sceneID="2608">
+            <objects>
+                <viewController id="2609" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2606"/>
+                        <viewControllerLayoutGuide type="bottom" id="2607"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2610">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="List" id="2634" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2611" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664" y="20"/>
         </scene>
     </scenes>
     <resources>
