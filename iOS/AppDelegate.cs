@@ -1,5 +1,7 @@
 ﻿using Foundation;
 using UIKit;
+using DevExpress.Mobile.Core;
+using DevExpress.Mobile.DataGrid;
 
 namespace WendysTest.iOS
 {
