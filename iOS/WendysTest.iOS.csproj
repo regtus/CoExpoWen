@@ -204,6 +204,11 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_76.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\wendys_152.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\wendylaunch_320_480.png" />
+    <ImageAsset Include="Assets.xcassets\Wendy.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Wendy.imageset\wendyProfile1_95.png" />
+    <ImageAsset Include="Assets.xcassets\Wendy.imageset\wendystoolbar_96_64.png" />
+    <ImageAsset Include="Assets.xcassets\Wendy.imageset\wendystoolbar_96_64_2.png" />
+    <ImageAsset Include="Assets.xcassets\Wendy.imageset\wendystoolbar_96_64_3.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\MessageDialog.cs" />
@@ -254,6 +259,9 @@
       <Version>17.1.2.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\Wendy.imageset\" />
   </ItemGroup>
   <Import Project="..\WendysTest\WendysTest.projitems" Label="Shared" Condition="Exists('..\WendysTest\WendysTest.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
