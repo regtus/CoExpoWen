@@ -20,7 +20,7 @@ namespace WendysTest.iOS
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
             App.Initialize();
-            DevExpress.Mobile.Forms.Init();
+            //DevExpress.Mobile.Forms.Init();
 
 
             // Select first UIViewController.
